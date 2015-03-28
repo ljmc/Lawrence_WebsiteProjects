@@ -1,0 +1,41 @@
+/*==================== The FAQ container ==========================*/
+
+#faq { width: realitive ; margin: 0 auto ; margin-top: 50px ;font: 130%/100% Arial, Helvetica, sans-serif; }
+
+/*==================== Category ==========================*/
+
+#faq h3 { 
+			background: #808080 url(../images/bk5.png);
+			cursor:pointer;
+			padding: 8px 15px;
+			margin-bottom:5px;
+			margin-top:0;
+			font: bold 120%/100% Arial, Helvetica, sans-serif;
+                        color: #fff;
+                        text-align: center;
+padding:10px 15px;border-bottom:1px solid transparent;border-top-left-radius:3px;border-top-right-radius:3px;
+ 		}
+	
+
+#faq ul { list-style:none; padding-left:0px ; margin:0}
+
+/*==================== Question ==========================*/
+
+#faq ul li { 
+			 background: #666666 url(../images/bk9.png);
+			 padding: 5px 10px;
+			 margin-bottom: 2px; /*===Make zero to remove spaces*/
+			 cursor:pointer;
+			 color: #fff;
+border-top-left-radius:3px;border-top-right-radius:3px;
+                         }
+
+
+/*==================== Response ==========================*/
+
+#faq ul p{
+		 	margin-top:5px;
+			padding: 10px 15px;
+			border-top:none;
+			background-color:#FFF;
+		  }

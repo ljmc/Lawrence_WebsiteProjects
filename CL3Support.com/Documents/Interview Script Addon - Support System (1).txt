@@ -1,0 +1,2 @@
+Section _: CL3 Support Ticket System
+The support ticket system has been created so that our dedicated Helper Team can correct your issues and problems as fast as possible. Simply go to waiting for help, submit a ticket on https://cl3support.com/index.php then wait for a helper to assist you. When they do come to assist you they will view your ticket and help solve your problem as fast as they can. If this is an extended problem make sure if another helper is helping you on the same topic that you advise them that you already have an open ticket.
