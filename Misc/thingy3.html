@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>HeHe Machine</title>
+	</head>
+	<body>
+		<input onkeypress="checkButton(event)" type="number" id="page" placeholder="ID #"/>
+		<input type="submit" value="Search" onclick="getFrame()"/>
+		<br/>
+		<br/>
+		<img id="image"></img>
+	</body>
+</html>
+
+<script type="text/javascript">
+	var siteString = "https://skystorage.iscorp.com/pictures/wi/arrowhead//";
+	var frame = document.getElementById("image");
+
+	var checkButton = function(e) {
+		if (e.keyCode == 13) {
+			getFrame();
+			return false;
+		}
+	}
+
+	var getFrame = function() {
+		try {
+			var siteNum = document.getElementById("page").value;
+			frame.src = siteString + siteNum + ".jpg";
+		}
+		catch (e) {
+			console.log(e + "a");
+		}
+	}
+
+</script>

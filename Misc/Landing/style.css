@@ -1,0 +1,31 @@
+body {
+	background:#000 url('img/background.jpg') repeat center top;
+	background-size: cover;
+}
+
+.logoimg{
+        background:url(./img/clouds.png) no-repeat center;
+        margin:0px auto;
+        height:100px;
+        margin-top:15%;
+}
+
+h1 {
+                font-family: 'Open Sans', sans-serif;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 22pt;
+                font-weight: 100;
+                color: #6c6c6c;
+                line-height: 3;
+}
+.socialrow{
+        display:block;
+        text-align:center;
+        width:100%;
+}
+.social{
+        display:inline-block;
+}
+.social:not(:first-child){
+        margin-left:20px;

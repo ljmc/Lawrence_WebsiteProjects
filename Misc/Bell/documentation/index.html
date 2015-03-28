@@ -1,0 +1,220 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Bell - Responsive Countdown Landing Page</title>
+	
+	<meta name="description" content="Thank you for purchasing Bell. In this documentation you will find details on how to customize the template for your needs. It's fairly simple actually, template contains two plugins, Countdown and Twitter Feed, which both require jQuery. Also, you will find LESS file that I used to code this beautiful template, its simple and very easy to read.">
+	<meta name="author" content="Sonny T.">
+	<meta name="copyright" content="Sonny T.">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-12-01T18:44:56+01:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='easeInExpo';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#assets">Assets</a></li>
+			<li><a href="#header">Header</a></li>
+			<li><a href="#colors">Colors</a></li>
+			<li><a href="#countdown_plugin">Countdown Plugin</a></li>
+			<li><a href="#twitter_plugin">Twitter Plugin</a></li>
+			<li><a href="#subscription_box">Subscription Box</a></li>
+			<li><a href="#contact_us">Contact Us</a></li>
+			<li><a href="#stylesheet">Style Sheet</a></li>
+			<li><a href="#questions_and_support">Questions and Support</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Sonny T. 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Bell</h1><h2>Responsive Countdown Landing Page</h2><hr><ul><li>Created: 11/29/2012</li><li>By: Sonny T.</li><li><a href=""></a></li><li>Email: <a href="mailto:&#104;&#105;&#64;&#115;&#111;&#110;&#110;&#121;&#116;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#115;&#111;&#110;&#110;&#121;&#116;&#46;&#99;&#111;&#109;</a></li></ul><p>Thank you for purchasing Bell. In this documentation you will find details on how to customize the template for your needs. It's fairly simple actually, template contains two plugins, Countdown and Twitter Feed, which both require jQuery.</p></section>
+<section id="assets">
+	<h3>Assets</h3><hr class="notop">
+<p>
+	Here are the description of the files and folders you find inside of an <em>/assets</em> directory;</p>
+<p>
+	<strong>/demo</strong> - This folder contains all the images used for the demo purposes, after you fully modify the content of the template, feel free to remove this directory.</p>
+<p>
+	<strong>/javascript/main.js</strong> - The main Javascript file that triggers Twitter, Countdown and Subscription functions.</p>
+<p>
+	<strong>/stylesheet/style.css</strong> - The main CSS file. <br/>
+	<ul>
+		<li><strong>colors/</strong> - Colors stylesheets</li>
+		<li><strong>lib/</strong> - Third-party CSS libraries</li>
+		<li><strong>partials/</strong> - Partials of the theme</li>
+		<li><strong>themes/</strong> - Themes of the theme</li>
+	</ul>
+</p>
+<p>
+	<strong>/video</strong> - This folder contains header video background.</p>
+</section>
+<section id="header">
+	<h3>Header</h3><hr class="notop">
+<p>
+The Bell allows you to have video or image as your header background.
+</p>
+
+<p>
+To use video header (<strong>video.html</strong>) background you need "<strong>.mp4</strong>" and "<strong>.ogg</strong>" files. And replace the "<strong>main.mp4</strong>" and "<strong>main.ogg</strong>" files inside of "<strong>assets/videos</strong>" directory.
+</p>
+
+<p>
+To use image header (<strong>image.html</strong>) replace the "<strong>main.jpg</strong>" image inside of "<strong>assets/images</strong>" directory.
+</p>
+</section>
+<section id="colors">
+	<h3>Colors</h3><hr class="notop">
+<p>
+The Bell also has different accent color pallets that you can choose from. To change the accent color of your page, change the class "<strong>green-color</strong>" in "<strong>body</strong>" tag with either of these:
+</p>
+
+<ul>
+	<li>green-color</li>
+	<li>orange-color</li>
+	<li>blue-color</li>
+	<li>yellow-color</li>
+</ul>
+<p>The theme also comes with multiple color versions, dark and blue.</p>
+<p>To use the dark color theme, add "<strong>dark-theme</strong>" to the "<strong>body</strong>". <br />To use the blue color theme, add "<strong>blue-theme</strong>" to the "<strong>body</strong>".</p>
+</section>
+<section id="countdown_plugin">
+	<h3>Countdown Plugin</h3><hr class="notop">
+<p>
+	The countdown for demo sake comes with&nbsp;<em>futureDate</em> function which adds +60 days to current date, so you can remove the function.</p>
+<p>
+	To change the countdown clock open up a <strong>/assets/javascript/main.js</strong> file and go down to <em>line 8:</em></p>
+<pre class="brush: js; first-line: 8">
+date: &#39;12/24/2016 12:00:00&#39;, // CHANGE THE DATE
+</pre>
+<p>
+	Your date has to be in a format below:</p>
+<pre>
+MM/DD/YYYY HH:MM:SS</pre>
+<p>
+	Here is an example:</p>
+<pre class="brush: js; first-line: 8">
+date: &#39;12/24/2012 12:00:00&#39;,
+</pre>
+</section>
+<section id="twitter_plugin">
+	<h3>Twitter Plugin</h3><hr class="notop">
+	<p class="alert" style="background-color: #fcf8e3; border: 1px solid #fbeed5; padding: 8px 35px 8px 14px;"><strong>Important</strong>: Due to recent changes in the Twitter API, the Twitter feed functionality now requires PHP. The files must be loaded from a server with PHP enabled.</p>
+
+	<p>Bell includes a script to display tweets. It can pull the latest tweets from your screen name.</p>
+	
+	<p>To set it up you must optain a few keys from Twitter. Follow these steps to get them:</p>
+
+	<ul>
+	    <li><p>Go to <a href="https://dev.twitter.com/" target="_blank">https://dev.twitter.com/</a> and sign in with your twitter info.</p></li>
+
+	    <li><p>In the upper right hand corner dropdown, select "<strong>My Applications</strong>"</p>
+	        <p><img src="assets/images/twitter01.png" alt=""></p></li>
+
+	    <li><p>Click the "<strong>Create a new Application</strong>" button.</p>
+	        <p><img src="assets/images/twitter02.png" alt=""></p></li>
+
+	    <li><p>Fill in the info for you website. <em>Note:</em> In the Callback URL field, fill in
+	        </p><pre>http://yourwebsite.com/api/tweet.php</pre>
+	        Replacing "yourwebsite.com" with your website url.<p></p>
+	        <p><img src="assets/images/twitter03.png" alt=""></p></li>
+
+	    <li><p>In the following screen you will see a section for "<strong>OAuth</strong>". From here you will find your applications <strong>Consumer Key</strong> and <strong>Consumer Secret</strong>. Add these two in the corresponting constant in <strong>/api/config.php</strong>.</p>
+	        <p>Then hit the "<strong>Create Access Token</strong>" button.</p>
+	        <p><img src="assets/images/twitter04.png" alt=""></p></li>
+
+	    <li><p>Your access token should now be in the "<strong>Your Access Token</strong>" section. Add these in to the config file as well.</p>
+	        <p><img src="assets/images/twitter05.png" alt=""></p></li>
+	</ul>
+	<p>You should now have a functioning Twitter module.</p>
+</section>
+<section id="subscription_box">
+	<h3>Subscription Box</h3><hr class="notop">
+	<p>Subscription box is integrated with MailChimp. To get the form running, you just need your MailChimp API Key and List ID.</p>
+	<p>To get your API Key, click <a href="https://us4.admin.mailchimp.com/account/api/" target="_blank">here</a>. <br />
+	   To get your List ID, click <a href="http://kb.mailchimp.com/article/how-can-i-find-my-list-id" target="_blank">here</a>.</p>
+
+	<p> After you get your List ID and API Key, go to <strong>/api/config.php</strong> and change the <em>lines 10 & 11.</em></p>
+	<pre class="brush: php;  first-line: 10">
+	    define('MC_API_KEY', 'Replace this with the Mailchimp API key');
+	    define('MC_LIST_ID', 'Replace this with the Mailchimp List Id');
+</pre>
+</section>
+<section id="contact_us">
+	<h3>Contact Us</h3><hr class="notop">
+	<p>Contact us form is very simple to setup. Just go to <strong>/api/config.php</strong> and change the <em>line 14.</em></p>
+	<pre class="brush: php;  first-line: 14">
+	    define('EMAIL', 'Replace this with your contact email');
+</pre>
+</section>
+<section id="stylesheet">
+	<h3>Style Sheet</h3><hr class="notop">
+	<p>CSS style sheet is located inside of "assets" directory. Style Sheet is broken down into multiple small files to make it easier for you to focus and find parts of the theme.</p>
+	<p><strong>style.css</strong> - main file that imports different partials, and it self is loaded by HTML.</p>
+	<p><strong>/colors</strong> - theme colors are located in here</p>
+	<p><strong>/lib</strong> - inside of "lib" directory you will find 3rd party CSS files, in this case, it's Twitter Bootstrap</p>
+	<p><strong>/partials</strong> - different portions of the theme.</p>
+
+</pre>
+</section>
+<section id="questions_and_support">
+	<h3>Questions and Support</h3><hr class="notop">
+<p>
+	If you need help with the theme or have some questions, feel free to contact me at;</p>
+<ul>
+	<li>
+		Website: www.sonnyt.com</li>
+	<li>
+		Twitter: @sonnyt</li>
+	<li>
+		Email: &#104;&#105;&#64;&#115;&#111;&#110;&#110;&#121;&#116;&#46;&#99;&#111;&#109;</li>
+</ul>
+<p>
+	Or just leave a comment on Themeforest.com</p>
+</section>
+
+	</div>
+</body>
+</html>
